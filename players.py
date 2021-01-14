@@ -99,7 +99,7 @@ class SmartAI(SimpleAI):
 
 
 player_classes = {
-    'human': Player(type),
-    'simple': SmartAI(type),
-    'smart': SimpleAI(type),
+    'human': Player,
+    'simple': SmartAI,
+    'smart': SimpleAI,
 }
