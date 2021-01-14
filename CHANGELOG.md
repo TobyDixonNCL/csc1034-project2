@@ -19,3 +19,6 @@
   
 * v1.1.1 [2021-01-14]: Bug Fix. Fixed Attribute Error in players.py. Changed 
   player_classes so that each key relates to a class and takes a parameter of type.
+  
+* v1.1.1 [2021-01-14]: Bug Fix. Fixed Name Error in user_interface.py. Changed for loop
+  at line 113 to use i instead of card.
