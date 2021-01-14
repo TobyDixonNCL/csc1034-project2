@@ -16,3 +16,6 @@
   
 * v1.1.1 [2021-01-14]: Bug Fix. Fixed Type Error in switch.py. Changed
   parentheses to square brackets at line 52.
+  
+* v1.1.1 [2021-01-14]: Bug Fix. Fixed Attribute Error in players.py. Changed 
+  player_classes so that each key relates to a class and takes a parameter of type.
