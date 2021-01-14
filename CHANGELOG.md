@@ -6,3 +6,6 @@
 
 * v1.1.0 [2019-10-25]: First major release.
   This version is known to contain some bugs.
+
+* v1.1.1 [2021-01-14]: Fixed Syntax error in players.py
+  at line 50. Missing parentheses.
