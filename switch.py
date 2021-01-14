@@ -282,4 +282,5 @@ class Switch:
 
 
 if __name__ == '__main__':
-    Switch().run_game
+    game = Switch()
+    game.run_game()
