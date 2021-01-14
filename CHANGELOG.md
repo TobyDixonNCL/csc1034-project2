@@ -26,5 +26,9 @@
 * v1.1.1 [2021-01-14]: Bug Fix. Fixed Type Error in user_interface.py. Swapped idx and player
   in the enumerate statement so that idx would point to the index and player would point to the player.
   
-* v1.1.1 [2021-01-14]: Bug Fix. Fixed test case that checks initial values of flags. Self.draw4 changed to
+* v1.1.1 [2021-01-14]: Test Fix. Fixed test case that checks initial values of flags. Self.draw4 changed to
   initially be False instead of true.  
+  
+* v1.1.1 [2021-01-14]: Test Fix. In cards.py, removed duplicate card number (2) from the list of
+  possible values for a cards number. This resulted in stock pile being larger than it should be.
+  
