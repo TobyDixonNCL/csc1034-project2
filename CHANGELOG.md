@@ -25,3 +25,6 @@
   
 * v1.1.1 [2021-01-14]: Bug Fix. Fixed Type Error in user_interface.py. Swapped idx and player
   in the enumerate statement so that idx would point to the index and player would point to the player.
+  
+* v1.1.1 [2021-01-14]: Bug Fix. Fixed test case that checks initial values of flags. Self.draw4 changed to
+  initially be False instead of true.  
