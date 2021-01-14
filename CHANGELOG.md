@@ -22,3 +22,6 @@
   
 * v1.1.1 [2021-01-14]: Bug Fix. Fixed Name Error in user_interface.py. Changed for loop
   at line 113 to use i instead of card.
+  
+* v1.1.1 [2021-01-14]: Bug Fix. Fixed Type Error in user_interface.py. Swapped idx and player
+  in the enumerate statement so that idx would point to the index and player would point to the player.
