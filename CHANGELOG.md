@@ -35,3 +35,6 @@
 * v1.1.1 [2021-01-15]: Test Fix. In switch.py set draw4 to True if the card discarded is a Queen.
 
 * v1.1.1 [2021-01-15]: Test Fix. in switch.py return True for can_discard if card value is in 'QA'.
+
+* v1.1.1 [2021-01-15]: Test Fix. In test_switch.py check can_discard for Queens instead Kings when testing if 
+  Queens can always be discarded.
