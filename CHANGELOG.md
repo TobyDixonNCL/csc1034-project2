@@ -32,3 +32,4 @@
 * v1.1.1 [2021-01-14]: Test Fix. In cards.py, removed duplicate card number (2) from the list of
   possible values for a cards number. This resulted in stock pile being larger than it should be.
   
+* v1.1.1 [2021-01-15]: Test Fix. In switch.py set draw4 to True if the card discarded is a Queen.
