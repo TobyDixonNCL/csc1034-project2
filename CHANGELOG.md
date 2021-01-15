@@ -33,3 +33,5 @@
   possible values for a cards number. This resulted in stock pile being larger than it should be.
   
 * v1.1.1 [2021-01-15]: Test Fix. In switch.py set draw4 to True if the card discarded is a Queen.
+
+* v1.1.1 [2021-01-15]: Test Fix. in switch.py return True for can_discard if card value is in 'QA'.
