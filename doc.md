@@ -1,6 +1,7 @@
 improvements:
     * Changed for loop in user_interface line 115 to list comprehension.
     * in switch at line 138 changed if statement to list comprehension
+    * in switch at line 210 removed if statement that serves no purpose.
     
 Method of finding bugs:
     * Looking at runtime errors and checking to pointed to location within the project
