@@ -38,3 +38,6 @@
 
 * v1.1.1 [2021-01-15]: Test Fix. In test_switch.py check can_discard for Queens instead Kings when testing if 
   Queens can always be discarded.
+  
+* v1.1.1 [2021-1-21]: Syntax Error fix. In switch.py at line 97, changed "self.direction == 1" to 
+  "self.direction = 1" when setting the game flags to their initial value.
