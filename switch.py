@@ -207,9 +207,6 @@ class Switch:
         # and add to discard pile
         self.discards.append(card)
         UI.print_discard_result(True, card)
-        # we are done if the player has no more cards in his hand
-        #if not player.hand:
-        #    return
         # if card is an eight, skip next player
         if card.value == '8':
             self.skip = True
