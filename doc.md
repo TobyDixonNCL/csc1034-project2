@@ -1,8 +1,10 @@
 improvements:
-    * Remove return i from for loops
+    * Changed for loop in user_interface line 115 to list comprehension.
+    * in switch at line 138 changed if statement to list comprehension
     
 Method of finding bugs:
     * Looking at runtime errors and checking to pointed to location within the project
     * Using pytest to set test cases to check all functions work
     * Using debugger to step through functions and check the values of variables to make sure
       they align with my predicted values.
+      

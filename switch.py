@@ -133,10 +133,8 @@ class Switch:
 
         # determine discardable cards
         discardable = []
-        for card in player.hand:
-            if not self.can_discard(card):
-                continue
-            discardable.append(card)
+
+        [(discardable.append(card) if self.can_discard(card) else None) for card in player.hand]
 
         # have player select card
         hands = self.get_normalized_hand_sizes(player)
