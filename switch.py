@@ -76,7 +76,7 @@ class Switch:
                 i = (i+self.direction) % len(self.players)
             else:
                 continue
-        UI.print_winner_of_game(self.players[1])
+        UI.print_winner_of_game(self.players[i])
 
     def setup_round(self):
         """Initialize a round of switch.
@@ -208,8 +208,8 @@ class Switch:
         self.discards.append(card)
         UI.print_discard_result(True, card)
         # we are done if the player has no more cards in his hand
-        if not player.hand:
-            return
+        #if not player.hand:
+        #    return
         # if card is an eight, skip next player
         if card.value == '8':
             self.skip = True

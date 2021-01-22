@@ -41,3 +41,6 @@
   
 * v1.1.1 [2021-1-21]: Syntax Error fix. In switch.py at line 97, changed "self.direction == 1" to 
   "self.direction = 1" when setting the game flags to their initial value.
+    
+* v1.1.1 [2021-1-21]: Syntax Error fix. In switch.py at line 79, changed print winner of game from 
+  "self.players[1]" to "self.players[i]".
